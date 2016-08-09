@@ -6,15 +6,15 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:textColorPrimary">@color/red</item>
-        <item name="android:colorBackground">@color/soothing_blue</item>
+        <!--<item name="android:textColorPrimary">@color/red</item>-->
+        <item name="android:colorBackground">@color/blue</item>
         <item name="android:buttonStyle">@style/BeatBoxButton</item>
     </style>`
 
     <!--android:background="@color/dark_red"-->
     <style name="BeatBoxButton" parent="Base.Widget.AppCompat.Button">
-        <item name="android:textColor">@color/dark_red</item>
-        <item name="android:background"> @color/dark_blue</item>
+        <!--<item name="android:textColor">@color/dark_red</item>-->
+        <item name="android:background"> @drawable/button_beat_box</item>
     </style>
 
 
