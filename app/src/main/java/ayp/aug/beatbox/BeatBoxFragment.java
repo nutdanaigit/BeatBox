@@ -31,7 +31,9 @@ public class BeatBoxFragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setRetainInstance(true);
         beatBox = new BeatBox(getActivity());
+
     }
 
 
@@ -45,6 +47,7 @@ public class BeatBoxFragment extends Fragment {
 
         recyclerView.setLayoutManager(new GridLayoutManager(getActivity(),3));
         recyclerView.setAdapter(new SoundAdapter(beatBox.getSounds()));
+
         return view;
     }
 
